@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles/contact.css">
+		<title>Contact | Web Developer</title>
+		<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	</head>
+		<body>
+			<div id="hamburger" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="index.html">Home</a>
+				<a href="mystory.html">My Story</a>
+				<a href="career.html">Career</a>
+				<a href="education.html">Education</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+				
+			</div>
+
+
+			<!-- Burger Icon--->
+				<script>
+					function openNav(){
+					document.getElementById("hamburger").style.display = "block";}
+
+					function closeNav(){
+					document.getElementById("hamburger").style.display = "none"}				
+				</script>
+
+
+
+				<div class="hero-image">
+					<div class="topnav">
+						<div class="logo">
+							<span class="hamburger-icon" style="font-size: 30px; cursor: pointer" onclick = "openNav()">&#9776</span>
+							<a href="index.html" id="logo">Vipin</a>
+						</div>
+						
+	
+	
+					<div class="page-links">
+					  <a href="mystory.html">My Story</a>
+					  <a href="career.html">Career</a>	
+					  <a href="education.html">Education</a>
+					  <a href="portfolio.html">Portfolio</a>
+					  <a href="contact.html">Contact</a>
+					</div>  
+					</div>
+
+	
+				</div>
+
+				<h1>Get in Touch</h1>
+					<form action="my-handling form page" method="post" class="form-class">
+						
+							<label class="name">Name:</label>
+
+							<input type="text" id="name" name="user_name" placeholder="Ex: Shalender kumar">
+						
+							<label class="email">Email:</label>
+
+							<input type="text" id="email" name="user_email" placeholder="df...dfs@gmail.com">
+						
+							<label for="msg">Message:</label>
+
+							<textarea id="msg" name="user_message" placeholder="Your message here"></textarea>
+						
+						<div class="button" align-items ="center">
+							<a class="button1" href="index.html" target="_blank" rel="index">Send</a>						
+						</div>
+
+
+					</form>
+
+		</body>
+</html>
