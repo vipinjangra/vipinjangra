@@ -6,18 +6,20 @@
 html,body{
 	height: 100%;
 	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/images/1.jpg"); 
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
 .container{
-	position: absolute;
-	top: 20%;
-	left: 20%;
-	-webkit-transform: tranlate (-40%,-30%);
-	transform:(-50%,-50%);
-	background-color: rgba(19, 19, 19, 0.712);
-	color: white	;
+	width: 70%;
+	height: auto;
+	color: white;
+	margin: 20vh auto;
 }
 table{
-	width: 900px;
+	width: 100%;
 	border-collapse: collapse;
 	overflow: hidden;
 	box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -139,11 +141,7 @@ span{
 
 /*Hero Image*/
 .hero-image{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/vipinjangra/images/1.jpg"); 
-	background-repeat:no-repeat;
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+	
 	height: 100% ;
 	overflow: auto;
 }
@@ -163,7 +161,7 @@ span{
 }
 
 .social-items a {
-	margin: 20px;
+	margin: 10px;
 }
 
 

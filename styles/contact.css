@@ -1,5 +1,5 @@
 body{
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url("/vipinjangra/images/contact.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url("/images/contact.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom-left;
@@ -17,12 +17,12 @@ h1{
 	font-family: Arial, Hevetica, sans-serif;
 }
 form{
-	margin: 50px auto;
-	width:600px;
+	margin: 50px 50px;
+	width:auto;
 	font-family: Arial, Hevetica, sans-serif;
 	display: flex;
 	flex-direction: column;
-	background-color: #404040;
+	background-color: rgba(129,129,129,0.2);
 	padding: 30px;
 	justify-content: space-between;
 }
@@ -40,8 +40,9 @@ input, textarea{
 	font-size: 1em;
 	font-family: Arial, Hevetica, sans-serif;
 	background-color: white;
+
 	width: 90%;
-	color: rgb(211, 211, 211);
+	color: black;
 	vertical-align: center;
 	display: flex;
 	align-items: center;

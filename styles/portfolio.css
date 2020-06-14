@@ -2,10 +2,10 @@
 	box-sizing: border-box;
 }
 body, html{
-	background: linear-gradient(to right, #56ccf2, #2f80ed);
-	background-color: #56ccf2;
+	background: linear-gradient(to right, #805680, #808080);
+	background-color: #808080;
 	height: auto;
-	padding: 10px;
+	padding: 5px;
 	font-family: Arial Black;
 	padding-top: 0;
 }
@@ -68,6 +68,7 @@ span{
 	font-size: 25px;
 	color: gray;
 	display: block;
+	font-family: Arial ;
 }
 .sidenav a:hover{
 	color: black;
@@ -165,13 +166,10 @@ footer a:hover{
 
 
 /* Top  navigation bar and image */
-
-#logo:hover {
-	color: rgb(75, 75, 75);
 }
-
-
-
+#logo:hover {
+	color: rgb(80, 80, 80);
+}
 
 .page-links {
 	float: left;
@@ -206,7 +204,7 @@ footer a:hover{
 }	
 
 #logo{
-	color: black;
+	color: white;
 	font-size: 30px;
 	font-family: Arial Black;
 	display: flex;
@@ -236,7 +234,7 @@ footer a:hover{
 }
 
 .social-items a {
-	margin: 20px;
+	margin: 10px;
 }
 
 
