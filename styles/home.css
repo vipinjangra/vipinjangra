@@ -1,15 +1,8 @@
 body, html{
-	background: linear-gradient(to right, #56ccf2, #2f80ed);
 	height:100%;
-	background-color: #56ccf2;
 	margin: 0;
 	padding: 0;
 }
-
-
-
-
-
 
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -20,7 +13,7 @@ body, html{
 .sidenav{
 	display: none;
 	height: 100%;
-	width: 250px;
+	width: 200px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -31,7 +24,7 @@ body, html{
 }
 
 .sidenav a {
-	margin: 0 100px;
+	margin: 0px;
 }
 
 span{
@@ -63,7 +56,6 @@ img{
 }
 /*New Letter*/
 section{
-	background-color: rgba(255, 255, 255, 0.616);
 	padding-top: 5px;
 	padding-bottom: 5px;
 
@@ -218,7 +210,7 @@ footer a{
 
 /*Hero Image*/
 .hero-image{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/vipinjangra/images/1.jpg"); 
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/images/1.jpg"); 
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center center;
